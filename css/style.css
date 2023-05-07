@@ -4,6 +4,7 @@ body {
   color:#575F7D;
   font-size: 24px;
   line-height:25px;
+  text-align: center;
 }
 h1, h2, h3{
   font-family: 'Roboto', sans-serif;
@@ -15,7 +16,8 @@ h1, h2, h3{
   text-align: center;
 }
 .profile_pic{
-  width:300px;
+  width:200px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
 }
 a{
   text-decoration: none;
@@ -74,26 +76,6 @@ i:hover{
   .container {
     width: 300px;
   }
-}
-
-.pic_intro{
-  display: flex;
-}
-.Passion_div{
-  display: flex;
-  text-align: center;
-  justify-content: space-around;
-}
-.cookery{
-  display: flex;
-  justify-content: space-around;
-}
-.profile_pic_discription{
-  display: flex;
-  justify-content: space-around;
-}
-.discription{
-  margin-left: 10px;
 }
 .follow{
   text-align: center;
